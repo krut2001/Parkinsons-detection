@@ -17,7 +17,7 @@ You can find more info on the datasets in UCI's database. ([info for Parkinsons 
 
 ## Requirements
 
-- Python 3 (I **highly** recommend using Anaconda as this will save you a TON of time)
+- Python 3 
 - XGBoost (`pip install xgboost`)
 - Keras (`pip install keras`)
 - sklearn (`pip install scikit-learn`)
@@ -45,21 +45,3 @@ A Tsanas, MA Little, PE McSharry, LO Ramig (2009)
 IEEE Transactions on Biomedical Engineering (to appear).
 ```
 
-**If you use this repo please cite it:**
-
-```
-Cuuupid 💔. (2018, April 4). Detecting Parkinsons with AI (Version DOI). Zenodo. 
-http://doi.org/10.5281/zenodo.1211859
-```
-
-Bibtex:
-```
-@misc{cuuupid_loves_you_2018_1211859,
-  author       = {Cuuupid 💔},
-  title        = {Detecting Parkinsons with AI},
-  month        = apr,
-  year         = 2018,
-  doi          = {10.5281/zenodo.1211859},
-  url          = {https://doi.org/10.5281/zenodo.1211859}
-}
-```
