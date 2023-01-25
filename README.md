@@ -6,7 +6,7 @@ There are two datasets within this. The first is in the root folder (`parkinsons
 
 ## Approach
 
-Parkinsons detection islikely best done with an XGBoost since outputs are 0 or 1 and it seems mostly linear.
+Parkinsons detection is likely best done with an XGBoost since outputs are 0 or 1 and it seems mostly linear.
 
 The UDPR is very hard to fine tune with XGBoost. With an NN in Keras, we can fit much better. There are still some very bad apples in our data/predictions bur the performance is overall/on average much better.
 
