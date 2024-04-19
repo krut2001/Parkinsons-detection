@@ -17,7 +17,7 @@ Y = target
 from sklearn.model_selection import train_test_split
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = .25, random_state = 7)
 
-#Create the K-Neaarest-Neighbors model
+#Create the K-Nearest-Neighbors model
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
 model = KNeighborsClassifier()
